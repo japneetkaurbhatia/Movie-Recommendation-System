@@ -1,0 +1,605 @@
+1.INTRODUCTION
+
+INTRODUCTION :
+
+RECOMMENDATION SYSTEMS
+
+Recommendation System is a system that seeks to predict or filter preferences
+according to the user’s choices. Recommender systems are utilized in a variety of areas
+including movies, music, news, books, research articles, search queries, social tags,
+and products in general.
+
+TYPES OF RECOMMENDATION SYSTEM:
+Collaborative Recommender System:It’s the most sought after, most widely
+implemented and most mature technologies that is available in the market.
+Collaborative recommender systems aggregate ratings or recommendations of
+objects, recognize commonalities between the users on the basis of their ratings, and
+generate new recommendations based on inter-user comparisons. The greatest
+strength of collaborative techniques is that they are completely independent of any
+machine-readable representation of the objects being recommended and work well
+for complex objects where variations in taste are responsible for much of the
+variation in preferences. Collaborative filtering is based on the assumption that
+people who agreed in the past will agree in the future and that they will like similar
+kind of objects as they liked in the past.
+Content based Recommender System:It’s mainly classified as an outgrowth
+and continuation of information filtering research. In this system, the objects are
+mainly defined by their associated features. A content-based recommender learns a
+profile of the new user’s interests based on the features present, in objects the user
+has rated. It’s basically a keyword specific recommender system here keywords are
+used to describe the items. Thus, in a content-based recommender system the
+algorithms used are such that it recommends users similar items that the user has
+liked in the past or is examining currently.
+Demographic based Recommender System: This system aims to categorize
+the users based on attributes and make recommendations based on demographic
+classes. Many industries have taken this kind of approach as it’s not that complex
+and easy to implement. In Demographic-based recommender system the algorithms
+first need a proper market research in the specified region accompanied with a short
+
+survey to gather data for categorization. Demographic techniques form “people-to-
+people” correlations like collaborative ones, but use different data. The benefit of a
+
+demographic approach is that it does not require a history of user ratings like that in
+collaborative and content based recommender systems.
+Utility based Recommender System: Utility based recommender system
+makes suggestions based on computation of the utility of each object for the user. Of
+course, the central problem for this type of system is how to create a utility for
+individual users. In utility based system, every industry will have a different
+technique for arriving at a user specific utility function and applying it to the objects
+under consideration. The main advantage of using a utility based recommender
+system is that it can factor non-product attributes, such as vendor reliability and
+product availability, into the utility computation. This makes it possible to check real
+time inventory of the object and display it to the user.
+Knowledge based Recommender System: This type of recommender
+system attempts to suggest objects based on inferences about a user’s needs and
+preferences. Knowledge based recommendation works on functional knowledge:
+they have knowledge about how a particular item meets a particular user need, and
+can therefore reason about the relationship between a need and a possible
+recommendation.
+
+Hybrid Recommender System: Combining any of the two systems in a
+manner that suits a particular industry is known as Hybrid Recommender system.
+This is the most sought after Recommender system that many companies look after,
+as it combines the strengths of more than two Recommender system and also
+eliminates any weakness which exist when only one recommender system is used.
+APPLICATIONS OF RECOMMENDATION SYSTEMS
+
+Recommendation system that are used in daily life for the fulfillment of various needs
+of people.
+
+TRAVEL AND TOURISM RECOMMENDATION SYSTEM :
+
+Touring and sightseeing forms one of the main fields of business to consumer e-
+commerce. Research says that due to the information provided through the internet it
+
+makes travellers easy to choose their journey. Problem identified is that collaborative
+filtering technique cannot be used as there cannot be frequent personal travelling
+activities. As there is no discrete travel activities at a personal level its complicated to
+build user profiles at personalized level. Comment or review based recommendation
+has already been established successfully in travel sites. Another important problem
+concerned with this is the recommendation of bunch of people together cannot be
+considered as it will be the generalized decision, hence its necessary to build a
+personalized level travel settings.
+Mobile recommender system plays an important role in tourism and travelling
+domain. It can be called as a mobile guide for respective travellers based on their
+interest as the main feature it has is the "points of interest (POI)" with an interactive
+map. But a minor drawback of this is that it is used only at small scale so efficient use
+of this application is not always possible. And it should possess all the features such
+as global positioning system but due to wide range of smart phone usage it is easily
+available.
+
+EDUCATION RECOMMENDATION SYSTEM: Main difficulty faced
+by a university student is making a right decision concerned with the academic course.
+Recommendation system builds a model to support every student on which course to
+enroll on based on their academic past patterns as well as students who chose a
+particular courseand possess same academic history. The enrollment is done online
+through web system. So collaborative recommendation aproach is used based on the
+assumption that students with same history of academics would prefer to choose the
+same course in particular. Data included is number of courses which could be chosen,
+and average grades of students previously chosen. To achieve proper results in an
+organized way data is arranged in a table where each row includes student and a course.
+If a student has chosen n courses then the data of this student includes n no. of records,
+BOOK RECOMMENDATION SYSTEM: Book recommendation system a common scenario which we can see consists of set users and books. Books are rated
+by various who have read it previously and also these users give review about the book.
+These reviews can help to predict what genre people may like the book. The opinion
+whether the book is good or bad also matters a lot. A machine learning techniques like
+automated machine learning techniques is used for building opinions. There are
+various sites like Amazon, Goodreads, Google books, Flipkart etc. provide ratings and
+reviews on various books. Comments given by various readers can also be used to
+depict the polarity of a book. In book recommendation system various opinion mining
+techniques are used. There are various approaches used in book recommendation
+system like collaborative filtering, content based filtering etc. The process consists of
+data collection in which information regarding book like abstract of the book, review
+and comment are noted, then based on this information complete analysis is done and
+then is evaluated. In book recommendation system the books are recommended based
+on their interest also, the books can be fiction, non-fiction etc. After recommending
+books the book recommendation system also take feedback from users or readers to
+improvise the recommendation system.
+MOVIE RECOMMENDATION SYSTEM: In movie recommendation
+system a common scenario which we can see consists set of users and set of movies.
+A set of users at initial stage would have rated for example on the rate of 1 to 5 for
+some movies which they have already seen. These ratings which are given by the set
+of users is taken as input to movie recommendation system. The movie
+recommendation system uses these ratings given by user to predict the ratings of other
+movies that each user would give. In some cases users ratings will not be available in
+such cases the movie recommendation system will not predict the ratings instead will
+predict the probability that user would choose to watch a movie or the likelihood of
+the user.
+
+TODAY AND FUTURE OF RECOMMENDATION SYSTEMS
+CURRENT STATE
+While in the beginning of recommender systems it was important to find explicit similarity in people and products, a more effective
+method has been used to look at similarity of latent attributes. This is done by using
+matrix factorization. To
+oversimplify, all of the attributes for an item or a customer are combined in a way
+which reveals relationships that have not yet been realized.
+
+FUTURE STATE
+Recommender systems can be a very powerful tool in a company’s arsenal, and future
+developments are going to increase business value even further. Some of the
+applications include being able to anticipate seasonal purchases based on
+recommendations, determine important purchases, and give better recommendations
+to customers which can increase retention and brand loyalty.
+
+NEED OF RECOMMENDATION SYSTEM
+
+Recommender system has the ability to predict whether a particular user would
+prefer an item or not based on the user's profile. Recommender systems are
+beneficial to both service providers and users . They reduce transaction costs of
+finding and selecting items in an online shopping environment .
+
+PURPOSE OF MOVIE RECOMMENDATION SYSTEM:
+The purpose of a movies recommendation system basically is to search for movie
+that would be interesting to an individual. Moreover, it involves a number of factors
+to create personalised lists of useful and interesting content specific to each
+user/individual. Recommendation skim through all possible options and create a
+customized list of items that are interesting and relevant to an individual. These
+results are based on their profile, search/browsing history, what other people with
+similar traits/demographics are watching, and how likely are you to watch those
+movies.
+
+Recommender systems are information filtering tools that aspire to predict the rating
+for users and items. Movie recommendation systems provide a mechanism to assist
+
+users in classifying users with similar interests. Recommender system use of k-
+means clustering algorithm applied on the dataset. It is also compared with existing
+
+approaches, and the results have been analyzed and interpreted. Evaluation
+metrics such as mean absolute error (MAE), standard deviation (SD), root mean
+square error (RMSE) for the movie recommender system delivers better results as
+our approach offers lesser value of the mean absolute error, standard deviation, and
+root mean square error. This approach provide high performance regarding
+reliability, efficiency and delivers accurate personalized movie recommendations
+when compared with existing methods.
+WORKING:
+
+Figure-1 : Working of Recommendation System
+
+1. Non Personalised Recommendations
+This type of recommendations are simple but very useful. Because they solve the
+cold start problem for users. That is without knowing anything about the user, we can
+do some recommendations to the user. After getting some reviews from the user or
+getting some additional information about the user, we can move to next step.
+
+2. Most Commonly wathced movie by people who watched X were:
+This recommender takes the approach of looking at at all users who have watched a
+particular movie and then counts the returns the most popular movie returned by that
+group.
+3. Finding similar movies:
+Without taking content into account (Just based on ratings): Here just based on the
+ratings of the users for different movies, we use K nearest neighbours algorithm to
+find the movies which are similar.
+With taking Content into account: Here we just information about the movies, in this
+case the information of genres to predict the most similar movies.
+4. Matrix Factorisation(Collabarative Filtering)
+Two approaches were tried to do matrix factorisation, the low rank method is very
+slow, so used scipy's SVD for sparse matrix.
+5. Deep Learning Methods
+One popular recommender systems approach is called Matrix Factorisation. It works
+on the principle that we can learn a low-dimensional representation (embedding) of
+user and movie. For example, for each movie, we can have how much action it has,
+how long it is, and so on. For each user, we can encode how much they like action,
+or how much they like long movies, etc. Thus, we can combine the user and the
+movie embeddings to estimate the ratings on unseen movies.
+UNDERSTANDING PROBLEM ML OR DEEP LEARNING
+
+Figure 2: Difference between ML and Deep Learning
+
+The differences between the two:
+Machine learning uses algorithms to parse data, learn from that data, and make
+informed decisions based on what it has learned.
+Deep learning structures algorithms in layers to create an "artificial neural network”
+that can learn and make intelligent decisions on its own.
+
+2.REQUIREMENT ANALYSIS WITH
+
+SRS
+
+Figure 3: Database Processing
+
+Figure 4: FlowCHart of Process
+
+Figure 5: Processing of Engine
+
+Figure 6: Figure depicting Entity-Relationship
+
+Figure 7 : Data Flow Diagram
+
+3.TECHNICAL REQUIREMENT
+
+TECHNICAL REQUIREMENTS
+Python:
+Python is currently the most widely used multi-purpose, high-level programming
+language. It allows programming in Object-Oriented and Procedural paradigms.
+Python programs generally are smaller than other programming languages.
+Programmers have to type relatively less and indentation requirement of the
+language, makes them readable all the time. Python language is being used by almost
+all tech-giant companies like – Google, Amazon etc.The biggest strength of Python
+is huge collection of standard library which can be used for the following:
+Machine Learning, GUI Applications (like Tkinter etc. ), Web frameworks
+like Django, Image processing , Text processing and many more..
+
+Machine Learning:
+Machine Learning is the field of study that gives computers the capability to learn
+without being explicitly programmed. ML is one of the most exciting technologies that
+one would have ever come across. As it is evident from the name, it gives the
+computer that makes it more similar to humans: The ability to learn.
+
+Algorithm Used: KNN
+K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on
+Supervised Learning technique. K-NN algorithm assumes the similarity between the
+new data and available data and put the new case into the category that is most
+similar to the available categories. K-NN algorithm stores all the available data and
+classifies a new data point based on the similarity. K-NN algorithm can be used for
+Regression as well as for Classification but mostly it is used for the Classification
+problems.
+LIBRARIES USED:
+
+Pandas:
+Pandas has been one of the most popular and favourite data science tools used in
+Python programming language for data wrangling and analysis. Data is unavoidably
+messy in real world. And Pandas is seriously a game changer when it comes to
+cleaning, transforming, manipulating and analyzing data.
+
+Numpy:
+NumPy is a Python library used for working with arrays. It also has functions for
+working in domain of linear algebra, fourier transform, and matrices.
+
+Scikit-Surprise
+Surprise is a Python scikit for building and analyzing recommender systems that deal
+with explicit rating data. It provide various ready-to-use prediction algorithms such
+matrix factorization-based ( SVD ) etc.
+Collections:
+Collections in Python are containers that are used to store collections of data, for
+example, list, dict, set, tuple etc. These are built-in collections. Several modules have
+been developed that provide additional data structures to store collections of data.
+One such module is the Python collections module.
+
+APPROACH USED IN THIS SYSTEM:
+Collaborative filtering: Collaborative filtering approaches build a model from
+user’s past behavior (i.e. items purchased or searched by the user) as well as similar
+decisions made by other users. This model is then used to predict items (or ratings
+for items) that user may have an interest in.
+
+singular value decomposition (SVD)
+The singular value decomposition (SVD) provides another way to factorize a matrix,
+into singular vectors and singular values. ... The SVD is used widely both in the
+calculation of other matrix operations, such as matrix inverse, but also as a data
+reduction method in machine learning.
+
+
+4. PROCESS OF ENGINE
+
+A : IMPORTING LIBRARIES
+
+Most of the power of a programming language is in its libraries.
+Import specific items from a library to shorten programs.
+
+B. IMPORTING DATASETS
+
+C. REMOVING DATA
+1. Drop column that isn't important for predications
+2. Check for any missing values. If present filter that.
+
+D. DATA EXPLORATION AND ANALYSIS
+Data exploration is an approach similar to initial data analysis, whereby
+a data analyst uses visual exploration to understand what is in a dataset and the
+characteristics of the data, rather than through traditional data management systems.
+
+Data analysis is defined as a process of cleaning, transforming, and
+modeling data to discover useful information for decision-making. The purpose
+of Data Analysis is to extract useful information from data and taking the decision
+based upon the data analysis.
+
+E. VISUALIZATION
+Data visualization is the graphical representation of information and data. By
+using visual elements like charts, graphs, and maps, data visualization tools provide
+an accessible way to see and understand trends, outliers, and patterns in data.
+F. FILTERING DATA
+Data filtering is the process of choosing a smaller part of your dataset and using
+that subset for viewng or analysis by removing less efficient data
+Eg: Reducing the dimensionality of the dataset by filter out rarely rated movies and
+rarely rating users
+G. CREATING TRAINING AND TESTING DATASETS
+
+The procedure involves taking a dataset and dividing it into two subsets. The first
+subset is used to fit the model and common split percentages include: Train:
+80%, Test: 20%
+
+Separating data into training and testing sets is an important part of
+evaluating data mining models.By using similar data for training and testing, you can
+minimize the effects of data discrepancies and better understand the characteristics of
+the model.
+H. CREATING AND TRAINING THE MODEL
+Training data is the main and most important data which helps machines to learn and
+make the predictions. This data set is used by machine learning engineer to develop
+your algorithm and more than 70% of your total data used in the project.
+
+I.PREDICTIVE ANALYSIS
+Predictive analytics is the use of data, statistical algorithms and machine learning
+techniques to identify the likelihood of future outcomes based on historical data. The
+goal is to go beyond knowing what has happened to providing a best assessment of
+what will happen in the future.
+
+5.SOFTWARE REQUIRED
+
+AND
+
+SYSTEM SPECIFICATIONS
+
+SOFTWARE USED:
+
+The Jupyter Notebook is an open-source web application that allows you to create
+and share documents that contain live code, equations, visualizations and narrative
+text. Uses include: data cleaning and transformation, numerical simulation, statistical
+modeling, data visualization, machine learning, and much more.
+
+Jupyter Notebook provides you with an easy-to-use, interactive data science
+environment across many programming languages that doesn't only work as an IDE,
+but also as a presentation or education tool. It's perfect for those who are just starting
+out with data science!
+
+DATASET USED: Ratings.csv
+
+SPECIFICATION AND REQUIREMENTS:
+Recommendation System project, we will be using our local computers. Therefore
+minimum 2 GB (64-bit) RAM and 20 GB (64-bit) hard disk space will be needed.
+
+6.ADVANTAGES AND
+DISADVANTAGES
+
+ADVANTAGES OF RECOMMENDATION SYSTEM:
+
+Revenue — With years of research, experiments and execution primarily driven by
+Amazon, not only is there less of a learning curve for online customers today. Many
+different algorithms have also been explored, executed, and proven to drive high
+conversion rate vs. non-personalized product recommendations.
+
+Customer Satisfaction — Many a time, customers tend to look at their product
+recommendation from their last browsing. Mainly because they think they will find
+better opportunities for good products. When they leave the site and come back later;
+it would help if their browsing data from the previous session was available. This
+could further help and guide their e-Commerce activities, similar to experienced
+assistants at Brick and Mortar stores. This type of customer satisfaction leads to
+customer retention.
+
+Personalization — We often take recommendations from friends and family because
+we trust their opinion. They know what we like better than anyone else. This is the
+sole reason they are good at recommending things and is what recommendation
+systems try to model. You can use the data accumulated indirectly to improve your
+website’s overall services and ensure that they are suitable according to a user’s
+preferences. In return, the user will be placed in a better mood to purchase your
+products or services.
+
+Discovery — For example, the “Genius Recommendations” feature of iTunes,
+“Frequently Bought Together” of Amazon.com makes surprising recommendations
+which are similar to what we already like. People generally like to be recommended
+things which they would like, and when they use a site which can relate to his/her
+choices extremely perfectly then he/she is bound to visit that site again.
+DISADVANTAGES OF RECOMMENDATION SYSTEM
+
+Lack of Data: Perhaps the biggest issue facing recommender systems is that they
+need a lot of data to effectively make recommendations. It’s no coincidence that the
+companies most identified with having excellent recommendations are those with a
+lot of consumer user data. To get good recommendations, you need a lot of users, so
+you can get a lot of data for the recommendations
+Changing Data: The trends are always changing. Clearly an algorithmic
+approach will find it difficult if not impossible to keep up with fashion trends.
+Changing User Preferences: The likes, dislikes varies with time so preferences
+got change
+Unpredictable Items: Some type of items are difficult to make
+recommendations on, because the user reaction to them tends to be diverse and
+unpredictable.
+
+7.RESULT AND OBSERVATION
+
+RESULT:
+Recommender systems are a powerful new technology for extracting
+additional value for a business from its user databases.
+These systems help users find items they want to buy from a
+business. Recommender systems benefit users by enabling them to find
+items they like.
+This movie recommender takes the approach of looking at at all users
+who have watched a particular movie and then counts the returns the
+most popular movie returned by that group to user.
+OBSERVATION:
+
+8.CONCLUSION:
+
+CONCLUSION:
+Recommender systems are a powerful new technology for extracting additional value
+for a business from its user databases. These systems help users find items they want
+to buy from a business. Recommender systems benefit users by enabling them to find
+items they like. On the Internet, where the number of choices is overwhelming, there
+is need to filter, prioritize and efficiently deliver relevant information in order to
+alleviate the problem of information overload, which has created a potential problem
+to many Internet users. Recommender systems solve this problem by searching
+through large volume of dynamically generated information to provide users with
+personalized content and services. This paper explores the different characteristics
+and potentials of different prediction techniques in recommendation systems in order
+to serve as a compass for research and practice in the field of recommendation
+systems.
+
+9. REFERENCES
+
+REFERENCES
+[1] Kaggle : https://www.kaggle.com/rounakbanik/movie-recommender-systems
+[2] Github
+
+[3] Medium: https://medium.com/data-science-101/movie-recommendation-
+system-content-filtering-7ba425ca0920
+
+[4] Geeks for Geeks : https://www.geeksforgeeks.org/python-implementation-of-
+movie-recommender-system/
+
+[5] Analytics Vidhya:
+
+https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-
+recommendation-engine-python/
+
+[6] Numpy Documentation: https://numpy.org/doc/
+[7] Pandas Documentation: https://pandas.pydata.org/docs/
+[8] Scikit-Surprise Documentation: http://surpriselib.com/
+[9] Python for Everybody
+Exploring Data Using Python 3
+By Dr. Charles R. Severance
+
+[10] Towards datascience: https://towardsdatascience.com/a-simple-
+movie-recommendation-system-d135cfd0a22d
+
+[11] Deep Learning With Python By François Chollet
+[12] Python Documentation : Python.org
+
+[13] Stack Overflow: https://stackoverflow.com/questions/5253362/how-
+to-build-a-movie-recommender-system
+
+[14] Datacamp :
+
+https://www.datacamp.com/community/tutorials/recommender-systems-
+python
+
+[15] DEEP LEARNING WITH PYTHON
+
+by Francois Chollet
+
+[16] A byte of Python from Swaproop C.H. v1.2
+Swaroop C.H., A byte of Python, 2005
+
+[17] Youtube
+[18] Intenshala Training
+[19] INTRODUCTION TO MACHINE LEARNING WITH PYTHON: A
+GUIDE FOR DATA SCIENTISTS
+[20] by Andreas C. Müller
+[21] FUNDAMENTALS OF PYTHON: DATA STRUCTURES
+a. by Kenneth Lambert
+[22] https://pythonbooks.org/
+
+10.1 APPENDIX A
+SCREENSHOTS
+
+Importing and reading dataset
+
+Droping not required columns and viewing new dataset
+
+Checking null values
+
+Checking unique movies and users
+
+Checking Sparsity
+
+Visualing ratings of movies
+
+Cross Validation and Training Process
+
+Final Output
+
+Each user is getting 10 movies recommended using movieId
+
+10.2APPENDIX B
+SOURCE CODE
+
+# AIM: Create a Recommendation Engine for movies for users based on there past behaviour.
+# The user is recommended items that people with similar tastes and preferences liked in the past. In
+another word, this method predicts unknown ratings by using the similarities between users.
+#IMPORTING FILES
+import pandas as pd
+import numpy as np
+from surprise import Reader,Dataset,SVD
+from surprise.accuracy import rmse,mae
+from surprise.model_selection import cross_validate
+# Importing the Data
+df = pd.read_csv("ratings.csv")
+df.head()
+# Drop column that isn't important for predications
+df.drop('timestamp', axis=1, inplace=True)
+df.head()
+# Check for any missing values.
+# Data exploration and analysis to analyzing data sets to get their main characteristics.
+#no. of unique movies/users
+n_movies = df["movieId"].nunique()
+n_users = df["userId"].nunique()
+print(f'Number of unique movies: {n_movies}')
+print(f'Number of unique users: {n_users}')
+# Checking Sparsity of our data
+# Sparsity (%) = (No of missing values/ (Total Values))X100
+available_ratings = df['rating'].count()
+total_ratings = n_movies*n_users
+missing_ratings = total_ratings - available_ratings
+sparsity = (missing_ratings/total_ratings)*100
+print(sparsity)
+
+#prefer to have low sparsity to have more data to train on
+# Ratings Distribution using barplot
+df['rating'].value_counts().plot(kind = 'bar')
+# Dimensionality Reduction
+# reducing the dimensionality of the dataset by filter out rarely rated movies and rarely rating users
+# 1. Filter movies with less than 3 ratings
+filter_mov = df['movieId'].value_counts() > 3
+filter_mov = filter_mov[filter_mov].index.tolist()
+# 2 Filter users with less than 3 movies rated
+filter_users = df['userId'].value_counts() > 3
+filter_users = filter_users[filter_users].index.tolist()
+# 3. Removing rarely rated movies and rarely rating users
+print(f'ORIGINAL SHAPE : {df.shape}')
+df = df[(df['movieId'].isin(filter_mov)) & df['userId'].isin(filter_users)]
+print(f'NEW SHAPE : {df.shape}')
+# Creating Training and Testing Datasets
+# 1. Columns used for training
+cols = ['userId','movieId','rating']
+# 2. Creating surprise dataset
+reader = Reader(rating_scale = (0.5,5))
+data = Dataset.load_from_df(df[cols],reader)
+# 3. Create Train-set and Prediction-set
+train_set = data.build_full_trainset()
+antiset = train_set.build_anti_testset() # all combination of movies and users
+# Creating the model
+# SVD (Singular Value Decomposition) , Interaction Matrix = A X B X C
+algo = SVD(n_epochs = 25, verbose = True)
+### Training the model
+
+# Mean Absolute Error (MAE): MAE measures the average magnitude of the errors in a set of
+predictions, without considering their direction.
+# Root mean squared error (RMSE): RMSE is the square root of the average of squared differences
+between prediction and actual observation.
+cross_validate(algo,data,measures = ['RMSE','MAE'],cv=5, verbose = True)
+print('TRAING DONE')
+# Predictions Analysis
+# 1. Predict ratings for all pairs (user, items) that are NOT in the training set.
+pred = algo.test(antiset)
+pred[0]
+# 2. Recommending top 3 movies movies based on predictions
+from collections import defaultdict
+
+def get_top_n(pred,n):
+top_n = defaultdict(list)
+for uid,iid,_,est,_ in pred:
+top_n[uid].append((iid,est))
+
+for uid,user_ratings in top_n.items():
+user_ratings.sort(key =lambda x: x[1],reverse = True)
+top_n[uid]=user_ratings[:n]
+return top_n
+pass
+top_n = get_top_n(pred,n=10)
+print("User| Movies Recommended ")
+for uid,user_ratings in top_n.items():
+print(uid,[iid for (iid,rating) in user_ratings])
